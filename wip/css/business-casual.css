@@ -1,0 +1,443 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    font-size: 100%;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #abbaab; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #abbaab , #d5ddd5); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #abbaab , #d5ddd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+
+
+/*Begin custom user CSS*/
+
+/*
+================
+Dropdown Button
+================
+*/
+
+.box-index {
+  height: 80%
+}
+
+/*Dropdown Fix*/
+
+.hide-fix {
+  position: relative;
+  z-index: 16;
+}
+
+/*end dropdown fix*/
+
+
+.dropbtn {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #fff;
+  background: rgba(255,255,255,0.95);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  text-transform: none;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 18px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-top: 2px solid #a7c1cf;
+  font-size: .85em;
+}
+
+.dropdown-content a:hover {
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+.logoHeader { text-align: center; }
+/*We may not need this: ^*/
+
+
+.logoHeader img {
+  display : block;
+  margin: 0 auto;
+
+}
+
+
+.wordwrap {
+  white-space: pre-wrap;      /* CSS3 */
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: -pre-wrap;     /* Opera <7 */
+  white-space: -o-pre-wrap;   /* Opera 7 */
+  word-wrap: break-word;      /* IE */
+}
+
+/**/
+
+.tel a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.tel a:hover {
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact a {
+  color: black;
+  text-decoration: none;
+
+}
+
+.contact a:hover {
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.hospice-services {
+  float: left;
+  padding: 25px;
+}
+
+.hospice-services li {
+  list-style-type: square;
+  padding: 7px 0;
+}
+
+.hospice-services a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.5em
+
+}
+
+.hospice-services a:hover { text-shadow: 1px 1px 2px rgba(0,0,0,0.5); }
+
+.img-right {
+
+  float: right;
+  margin: 0 auto 0;
+
+}
+
+.content-list li {
+  font-size: 1.15em;
+}
+
+.row {
+  margin-bottom: 20px;
+  padding: 15px 15px;
+  background: #fff;
+  background: rgba(255,255,255,0.75);
+  border-radius: 8px;
+}
+
+.current {
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  color: black;
+}
+
+.copy {
+  margin: auto 0;
+}
+
+.copy p {
+  font-size: 1em;
+  float: left;
+  padding: 10px 0 0 0;
+
+}
+
+.footer-nav {
+  float: right;
+  margin: auto 0;
+
+}
+
+.footer-nav .footer-links li a {
+  color: black;
+  text-transform: none;
+  font-size: .80em;
+  padding: 10px 2px;
+}
+
+.footer-links li a:hover {
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  background: none;
+}
+
+.form {
+  display: block;
+  margin: 0 auto;
+}
+
+.hospice-image { padding: 0;}
+
+
+
+.services-list a {
+  color: black;
+}
+
+.services-list a:hover {
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  text-decoration: none;
+}
+
+.col-lg-3 { float: left;}
+
+.col-lg-9 {float: right;}
+
+.col-lg-8 { float: right;}
+
+.services-img {width: 100%;}
+
+.team-img { margin: auto;}
+
+/*End custom user CSS*/
+
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto;
+    border: 1px solid #999999;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0);
+}
+
+
+
+footer .row {
+  background: rgba(255,255,255,0.4);
+}
+
+/*Begin media queries*/
+
+/*Adjust font size on smaller screens*/
+@media screen and (max-width:400px) {
+  body { font-size: 120%; }
+}
+
+/*Mobile only code*/
+@media screen and (max-width:768px) {
+    body { font-size: 100%; }
+    .logoHeader {
+      /*Do not show logo on mobile*/
+      display: none;
+    }
+
+    div.dropdown,
+    .dropdown-content a {
+      display: none;
+    }
+
+    .box { height: 100%; }
+
+    .onlyMobile { display: block !important; }
+
+    .services-img { display: none; }
+    .hospice-square { display: none !important; }
+
+    .services-list {
+      text-align: center;
+    }
+
+}
+
+/*Desktop only code*/
+@media screen and (min-width:768px) {
+    body { font-size: 120%; }
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px 0;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    img.brand { width: 285px; }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 10px 0 20px 0;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar { border-radius: 0; }
+
+    .navbar-header { display: none; }
+
+    .navbar { min-height: 0; }
+
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.8);
+    }
+
+    .nav>li>a {
+      margin: 0 auto;
+      padding: 10px 18px;
+    }
+
+    .navbar-nav>li>a { line-height: normal; }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+
+    .hospice-image { width: 65%; display: block; }
+    .hospice-square { display: none; }
+    .services-desktop { display: block; }
+    .services-mobile { display: none; }
+
+}
+
+/*Full size desktop view only*/
+@media screen and (min-width:1200px) {
+
+    .hospice-image { width: 800px !important; }
+}
+
+@media screen and (max-width:991px) {
+    .hospice-image { display: none; }
+    .hospice-square { display: block; width: 60%}
+    .services-desktop { display: none; }
+    .services-mobile { display: block; }
+}
+
+/*End media queries*/
